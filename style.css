@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.form-control {
+  background-color: transparent;
+  padding: 5%;
+  border: blue 1px solid;
+  border-radius: 25px;
+  margin: 2%;
+}
+
+::placeholder {
+  color: #444;
+  text-align: center;
+}
+
+.btn{
+    background-color: transparent;
+  padding: 5%;
+    display: block;
+    margin: auto;
+    border: green 1px solid;
+  border-radius: 25px;
+    }
